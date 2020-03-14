@@ -14,6 +14,6 @@ setup(
     install_requires=[
         'dbussy; sys_platform == "linux"',
         'pyobjc; sys_platform == "darwin"',
-        'pythonnet; sys_platform == "windows"',
+        'pythonnet; sys_platform == "win32"',
     ],
 )
